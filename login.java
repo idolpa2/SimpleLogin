@@ -28,7 +28,7 @@ class Operation{
         Scanner all = new Scanner(System.in);
         Operation toast = new Operation();
         Login login = new Login();
-        toast.showToast("Crown Institute of Higher Education.\nCreate your student account.\n");
+        toast.showToast("Welcome to account registration page.\nCreate your account.\n");
         System.out.println("Enter your name");
         name = all.nextLine();
         System.out.println("Enter your student ID");
